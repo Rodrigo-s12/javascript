@@ -23,7 +23,7 @@ function contar() {
                 res.innerHTML += ` ${c} \u{1F449}`
             }
             /*contagem regressiva*/
-            } else {
+        } else {
             for(let c = i;c >= f; c -= p) {
                 res.innerHTML += ` ${c} \u{1F449}`
             }
